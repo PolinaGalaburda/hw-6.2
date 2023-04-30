@@ -1,0 +1,165 @@
+@font-face {
+   font-family: "Basis Grotesque Pro";
+   src: url('../fonts/BasisGrotesquePro-Regular.woff2') format('woff2'),
+      url('../fonts/BasisGrotesquePro-Regular.woff') format('woff'),
+      url('../fonts/BasisGrotesquePro-Regular.ttf') format('ttf'),
+      url('../fonts/BasisGrotesquePro-Regular.eot') format('eot');
+}
+
+@font-face {
+   font-family: "Basis Grotesque Pro";
+   src: url("../fonts/BasisGrotesquePro-Light.woff2") format("woff2"),
+      url("../fonts/BasisGrotesquePro-Light.woff") format("woff"),
+      url("../fonts/BasisGrotesquePro-Light.ttf") format("ttf"),
+      url("../fonts/BasisGrotesquePro-Light.eot") format("eot");
+   font-weight: 300;
+}
+
+@font-face {
+   font-family: "Basis Grotesque Pro";
+   src: url("../fonts/BasisGrotesquePro-Bold.woff2") format("woff2"),
+      url("../fonts/BasisGrotesquePro-Bold.woff") format("woff"),
+      url("../fonts/BasisGrotesquePro-Bold.ttf") format("ttf"),
+      url("../fonts/BasisGrotesquePro-Bold.eot") format("eot");
+   font-weight: 700;
+}
+
+.programm {
+
+   &__content {
+      padding: 8%;
+   }
+
+   &__theme {
+      padding-bottom: 30px;
+      font-family: "Basis Grotesque Pro";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: -0.03em;
+      text-transform: uppercase;
+      color: #0536FC;
+      opacity: 0.9;
+   }
+
+   &__title {
+      padding-bottom: 70px;
+      font-family: 'Basis Grotesque Pro';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 57px;
+      line-height: 59px;
+      letter-spacing: -0.03em;
+      text-transform: uppercase;
+      color: #000000;
+   }
+
+   &__text {
+      font-family: 'Basis Grotesque Pro';
+      font-style: normal;
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: -0.03em;
+      color: #000000;
+      opacity: 0.6;
+   }
+}
+
+.intro {
+
+   &__background {
+      width: 100%;
+      background-image: url(../img/pexels-fauxels-3183172\ 1.jpg);
+      background-size: cover;
+      display: flex;
+      justify-content: flex-end;
+   }
+}
+
+.nav-tabs {
+   height: 90px;
+}
+
+.nav-link {
+   font-family: 'Basis Grotesque Pro';
+   font-style: normal;
+   font-size: 16px;
+   line-height: 24px;
+   letter-spacing: -0.03em;
+   text-transform: uppercase;
+   border-radius: 0 !important;
+   color: #0536FC !important;
+
+}
+
+.nav-link.active {
+   color: #FFFFFF !important;
+   background-color: #0536FC !important;
+   border: none !important;
+}
+
+.who-we-are {
+   margin-top: 38%;
+   width: 50%;
+   background: #FFFFFF;
+
+   &__content {
+      padding: 17%;
+   }
+
+   &__theme {
+      padding-bottom: 30px;
+      font-family: 'Basis Grotesque Pro';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: -0.03em;
+      text-transform: uppercase;
+      color: #0536FC;
+      opacity: 0.9;
+   }
+
+   &__title {
+      padding-bottom: 70px;
+      font-family: 'Basis Grotesque Pro';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 38px;
+      line-height: 42px;
+      letter-spacing: -0.03em;
+      text-transform: uppercase;
+      color: #000000;
+   }
+
+   &__text {
+      max-width: 325px;
+      padding-bottom: 100px;
+      font-family: 'Basis Grotesque Pro';
+      font-style: normal;
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: -0.03em;
+      color: #000000;
+      opacity: 0.6;
+   }
+
+   &__button {
+      border: 1px solid #0536FC;
+      font-family: 'Basis Grotesque Pro';
+      font-style: normal;
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: -0.03em;
+      text-transform: uppercase;
+      text-decoration: none;
+      padding: 15px 35px;
+      color: #0536FC;
+
+      &:hover {
+         background: #0536FC;
+         color: #FFFFFF;
+      }
+   }
+}
